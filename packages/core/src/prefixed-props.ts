@@ -609,6 +609,7 @@ export type PrefixedProps = {
     /** @deprecated since 0.4.3 */
     _textOrientation: string
     _textOverflow: string
+    /** @deprecated since 0.5.0 */
     _textShadow: string
     _textSpaceCollapse: string
     _textSpaceTrim: string

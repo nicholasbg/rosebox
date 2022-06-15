@@ -85,6 +85,7 @@ import { serializeTransitionTimingFunction } from './core/transition-timing-func
 import { serializeTransition } from './core/transition'
 import { serializeTransitionDuration } from './core/transition-duration'
 import { serializeBoxShadow } from './core/box-shadow'
+import { serializeTextShadow } from './core/text-shadow'
 import { serializeAlignItems } from './core/align-items'
 import { serializeTransform } from './core/transform'
 import { serializeTransformOrigin } from './core/transform-origin'
@@ -236,6 +237,7 @@ export const funcMap: any = (type: 'inline' | 'css') => ({
     textEmphasisSkip: serializeTextEmphasisSkip,
     textEmphasisPosition: serializeTextEmphasisPosition,
     textIndent: serializeTexIndent,
+    textShadow: serializeTextShadow(type),
     fontSize: serializeFontSize(type),
     fontStretch: serializeFontStretch(type),
     fontSizeAdjust: serializeFontSizeAdjust(type),

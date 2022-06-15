@@ -97,6 +97,7 @@ import { TransitionTimingDeclaration } from '../../../core/transition-timing-fun
 import { TransitionDeclaration } from '../../../core/transition'
 import { TransitionDurationDeclaration } from '../../../core/transition-duration'
 import { BoxShadowDeclaration } from '../../../core/box-shadow'
+import { TextShadowDeclaration } from '../../../core/text-shadow'
 import { JustifyContentDeclaration } from '../../../core/justify-content'
 import { AlignItemsDeclaration } from '../../../core/align-items'
 import { TransformDeclaration } from '../../../core/transform'
@@ -274,6 +275,7 @@ export type RBStyle = Partial<
         TransitionDeclaration &
         TransitionDurationDeclaration &
         BoxShadowDeclaration &
+        TextShadowDeclaration &
         JustifyContentDeclaration &
         AlignItemsDeclaration &
         TransformDeclaration &
